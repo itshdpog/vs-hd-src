@@ -1,0 +1,179 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "nothing",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "after the battle with MVP HD, Boyfriend has Died and is now in Purgatory"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "what???"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hello, friend "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "where the fuck am i"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Where Are we? well were in purgatory of course"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "since when does purgatory look so happy "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well...."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Also Why am i in purgatory?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I thought i was a good person"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "also why do we look like this"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well thats how your purgatory looks like"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "uhhhhh ok?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "so how do i get out"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "well... there is a way but it wont be the same "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "What do you mean"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, you can get out of here by rap battling, BUT there is a chance you get teleported to a different universe"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "so its basically just Random?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "yes."
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, Here goes nothi-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "BUT WAIT. "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Only the winner can get out"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ok and?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "but-"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "boifend",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "I dont even know who you are"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "144p",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "fine..."
+		}
+	]
+}

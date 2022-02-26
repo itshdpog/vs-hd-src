@@ -81,10 +81,11 @@ class CreditsState extends MusicBeatState
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
 			['Vs HD Team'],
-			['hd',		'me',		'coding and charting torment and disagreement',						'https://www.youtube.com/channel/UCytrUvU8dtwHZeyLRXTt45A',	'1e1e1f'],
+			['hd',		'me',		'coding and charting disagreement',						'https://www.youtube.com/channel/UCytrUvU8dtwHZeyLRXTt45A',	'1e1e1f'],
 			['sixteenj',			'sixteenj',		'making all the songs besides torment',					'https://www.youtube.com/channel/UC4QvfbhWv0UfiId--pJOrzw',		'8d02f0'],
 			['kickafly',			'kickafly',			'making torment and old songs',				'https://www.youtube.com/c/KickaFly',			'1f007d'],
 			['Techsec',			'uh',			'Charting every song besides torment and disagreement',				'https://www.youtube.com/channel/UC-UDHiqZp5goqCzylXWq9Rg',			'540000'],
+			['Dab',			'deb',			'Charting Torment',				'https://www.youtube.com/channel/UCpMviYnJbluA1IfMOcJffDg',			'ffff00'],
 			['gamerzone',		'gamerzone',		'making old pickaxe',						'https://www.youtube.com/channel/UCzBoN9HAx1p4H1sWhhN1boA',	'2d2fad'],
 			[''],
 			['Script creator'],

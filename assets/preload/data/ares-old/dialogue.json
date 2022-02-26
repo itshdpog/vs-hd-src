@@ -1,0 +1,46 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Damn, That was pretty good!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "BAP!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Up for Another Round?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bep"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "That means Yes"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Alright! Lets see if you can keep up with this!!"
+		}
+	]
+}

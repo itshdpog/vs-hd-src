@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="HD.png">
+	<!-- Created with Adobe Animate version 21.0.6.41649 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Sing Note DOWN0000" x="5" y="5" width="685" height="775" frameX="0" frameY="-5" frameWidth="470" frameHeight="735"/>
+	<SubTexture name="Sing Note DOWN0001" x="700" y="5" width="685" height="753" frameX="0" frameY="-5" frameWidth="470" frameHeight="735"/>
+	<SubTexture name="Sing Note LEFT0000" x="1216" y="815" width="800" height="685" frameX="0" frameY="0" frameWidth="383" frameHeight="777"/>
+	<SubTexture name="Sing Note RIGHT0000" x="1216" y="1510" width="575" height="800" frameX="0" frameY="-1" frameWidth="465" frameHeight="793"/>
+	<SubTexture name="Sing Note RIGHT0001" x="1988" y="5" width="615" height="800" frameX="0" frameY="-1" frameWidth="465" frameHeight="793"/>
+	<SubTexture name="theboy0000" x="5" y="1625" width="544" height="800" frameX="-1" frameY="0" frameWidth="409" frameHeight="818"/>
+	<SubTexture name="theboy0001" x="559" y="1625" width="530" height="800" frameX="-1" frameY="0" frameWidth="409" frameHeight="818"/>
+	<SubTexture name="idle dance0000" x="2026" y="815" width="585" height="800" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
+    <SubTexture name="idle dance0001" x="1395" y="5" width="583" height="800" frameX="-6" frameY="0" frameWidth="429" frameHeight="767"/>
+    <SubTexture name="idle dance0002" x="5" y="815" width="588" height="800" frameX="0" frameY="-8" frameWidth="429" frameHeight="767"/>
+    <SubTexture name="idle dance0003" x="603" y="815" width="603" height="800" frameX="0" frameY="-8" frameWidth="429" frameHeight="767"/>
+</TextureAtlas>

@@ -1,0 +1,78 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-155,
+				45
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "idle",
+			"indices": [],
+			"name": "Aflac_Idle"
+		},
+		{
+			"offsets": [
+				-113,
+				51
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Aflac_Left"
+		},
+		{
+			"offsets": [
+				-177,
+				42
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Aflac_Right"
+		},
+		{
+			"offsets": [
+				-158,
+				33
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Aflac_Down"
+		},
+		{
+			"offsets": [
+				-146,
+				86
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Aflac_Up"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/aflac",
+	"position": [
+		-130,
+		270
+	],
+	"healthicon": "aflac",
+	"flip_x": false,
+	"healthbar_colors": [
+		129,
+		196,
+		255
+	],
+	"camera_position": [
+		10,
+		60
+	],
+	"sing_duration": 4,
+	"scale": 1
+}

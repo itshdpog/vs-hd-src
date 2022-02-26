@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="BOYFRIEND.png">
+	
+	
+	<SubTexture name="Idle0000" x="267" y="0" width="249" height="592" />
+	<SubTexture name="Left0000" x="517" y="0" width="364" height="588" />
+	<SubTexture name="Down0000" x="0" y="0" width="267" height="547" />
+	<SubTexture name="Up0000" x="1248" y="0" width="350" height="599" />
+	<SubTexture name="Right0000" x="881" y="0" width="366" height="592" />
+</TextureAtlas>

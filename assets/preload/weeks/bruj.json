@@ -1,0 +1,40 @@
+{
+	"storyName": "oh my fucking god what the fuck holy shit what the fucking fuck omg",
+	"difficulties": ",wtf,",
+	"hideFreeplay": false,
+	"weekBackground": "bruj",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"weekBefore": "weekhd",
+	"startUnlocked": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
+	"songs": [
+		[
+			"bitch",
+			"144p",
+			[
+				20,
+				20,
+				26
+			]
+		],
+		[
+			"death",
+			"144p",
+			[
+				140,
+				0,
+				0
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "hell"
+}

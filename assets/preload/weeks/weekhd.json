@@ -1,0 +1,49 @@
+{
+	"storyName": "MASKED SHOWDOWN!",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"bf",
+		"gf"
+	],
+	"songs": [
+		[
+			"pickaxe",
+			"hd",
+			[
+				20,
+				20,
+				26
+			]
+		],
+		[
+			"ares",
+			"hd",
+			[
+				20,
+				20,
+				26
+			]
+		],
+		[
+			"MVP",
+			"MVPHD",
+			[
+				186,
+				173,
+				75
+			]
+		]
+	],
+	"hideStoryMode": false,
+	"weekName": "week hd"
+}

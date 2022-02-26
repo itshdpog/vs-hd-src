@@ -1,0 +1,165 @@
+{
+	"dialogue": [
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "man it really is a beautiful day today, right BF? "
+		},
+		{
+			"speed": 0.065,
+			"portrait": "bf",
+			"boxState": "angry",
+			"expression": "excited",
+			"text": "bap"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "huh?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "bep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Who are you and what are you doing on my land"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "ske deep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "What? is this a joke? Is kick behind this?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Hes asking what u mean by your land"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Well. This is my country. The Christian Warriors"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "lmao ske deep buh boop de fla "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "dude what do u mean?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hes saying you look like aflac"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Wait, How do you know about my cousin?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Well, the last time we saw him, was a week ago in The End "
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "huh, well thats a coincidence and a half"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "bap sko do po br ka bep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "dude, i still dont understand u"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hes asking if u are as good as him in rap battling"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "ke se deep, poo dep?"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "hes asking if we should test that"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "Well OF COURSE!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "hd",
+			"boxState": "normal",
+			"expression": "excited",
+			"text": "bring it on!"
+		},
+		{
+			"speed": 0.05,
+			"portrait": "gf",
+			"boxState": "normal",
+			"expression": "demon",
+			"text": ""
+		}
+	]
+}

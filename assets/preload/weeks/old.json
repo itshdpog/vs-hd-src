@@ -1,0 +1,40 @@
+{
+	"storyName": "old shit",
+	"difficulties": "Normal",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"hideStoryMode": true,
+	"songs": [
+		[
+			"Ares-old",
+			"hd",
+			[
+				20,
+				20,
+				26
+			]
+		],
+		[
+			"MVP-old",
+			"hd",
+			[
+				20,
+				20,
+				26
+			]
+		]
+	],
+	"weekCharacters": [
+		"dad",
+		"bf",
+		"gf"
+	],
+	"weekName": "old"
+}

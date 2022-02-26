@@ -1,16 +1,20 @@
 {
 	"storyName": "oh my fucking god what the fuck holy shit what the fucking fuck omg",
-	"difficulties": ",wtf,",
+	"difficulties": "Normal",
 	"hideFreeplay": false,
 	"weekBackground": "bruj",
-	"weekBefore": "weekhd",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
+	"weekBefore": "weekhd",
 	"startUnlocked": true,
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"bitch",
@@ -31,10 +35,6 @@
 			]
 		]
 	],
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"hideStoryMode": false,
 	"weekName": "hell"
 }

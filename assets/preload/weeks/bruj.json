@@ -3,18 +3,14 @@
 	"difficulties": ",wtf,",
 	"hideFreeplay": false,
 	"weekBackground": "bruj",
+	"weekBefore": "weekhd",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"weekBefore": "weekhd",
-	"startUnlocked": false,
-	"weekCharacters": [
-		"",
-		"",
-		""
-	],
+	"startUnlocked": true,
+	"hideStoryMode": false,
 	"songs": [
 		[
 			"bitch",
@@ -35,6 +31,10 @@
 			]
 		]
 	],
-	"hideStoryMode": false,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"weekName": "hell"
 }

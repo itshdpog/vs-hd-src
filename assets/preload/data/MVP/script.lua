@@ -1,3 +1,5 @@
+
+
 function onEndSong()
 	if not allowEnd and isStoryMode then
 		startVideo('last');
@@ -16,6 +18,7 @@ function onStartCountdown()
 	end
 	return Function_Continue;
 end
+
 
 --healthdrain code
 function opponentNoteHit()

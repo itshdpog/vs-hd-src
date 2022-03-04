@@ -4116,6 +4116,26 @@
 				"bpm": 180,
 				"changeBPM": false,
 				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 180,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 180,
+				"changeBPM": false,
+				"mustHitSection": true
 			}
 		],
 		"gfVersion": "gf",
@@ -4123,7 +4143,7 @@
 		"player3": null,
 		"splashSkin": "noteSplashes",
 		"song": "Nether",
-		"stage": "smphdday",
+		"stage": "overworldA",
 		"validScore": true,
 		"arrowSkin": "",
 		"needsVoices": true,

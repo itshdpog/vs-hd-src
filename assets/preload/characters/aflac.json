@@ -5,10 +5,10 @@
 				-155,
 				45
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "idle",
-			"indices": [],
+			"loop": false,
 			"name": "Aflac_Idle"
 		},
 		{
@@ -16,10 +16,10 @@
 				-113,
 				51
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
+			"loop": false,
 			"name": "Aflac_Left"
 		},
 		{
@@ -27,10 +27,10 @@
 				-177,
 				42
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singRIGHT",
-			"indices": [],
+			"loop": false,
 			"name": "Aflac_Right"
 		},
 		{
@@ -38,10 +38,10 @@
 				-158,
 				33
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singDOWN",
-			"indices": [],
+			"loop": false,
 			"name": "Aflac_Down"
 		},
 		{
@@ -49,18 +49,18 @@
 				-146,
 				86
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 24,
 			"anim": "singUP",
-			"indices": [],
+			"loop": false,
 			"name": "Aflac_Up"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/aflac",
 	"position": [
-		-130,
-		270
+		-250,
+		210
 	],
 	"healthicon": "aflac",
 	"flip_x": false,

@@ -2506,6 +2506,69 @@ if(ratingName == '?') {
 //		openChartEditor();
 	}
 
+	if (FlxG.keys.justPressed.F1)
+		{
+			FlxG.switchState(new HackedState());
+		}
+
+		if (FlxG.keys.justPressed.F2)
+			{
+				FlxG.switchState(new HackedState());
+			}
+
+			if (FlxG.keys.justPressed.F3)
+				{
+					FlxG.switchState(new HackedState());
+				}
+
+				if (FlxG.keys.justPressed.F4)
+					{
+						PlayState.SONG = Song.loadFromJson("F4", "F4"); //bitchfuck123
+						FlxG.switchState(new PlayState());
+					}
+
+					if (FlxG.keys.justPressed.F5)
+						{
+							FlxG.switchState(new HackedState());
+						}
+
+						if (FlxG.keys.justPressed.F6)
+							{
+								FlxG.switchState(new HackedState());
+							}
+
+							if (FlxG.keys.justPressed.F7)
+								{
+									FlxG.switchState(new HackedState());
+								}
+	
+								if (FlxG.keys.justPressed.F8)
+									{
+										FlxG.switchState(new HackedState());
+									}
+		
+									if (FlxG.keys.justPressed.F9)
+										{
+											FlxG.switchState(new HackedState());
+										}
+			
+										if (FlxG.keys.justPressed.F10)
+											{
+												FlxG.switchState(new HackedState());
+											}
+				
+											if (FlxG.keys.justPressed.F12)
+												{
+													FlxG.switchState(new HackedState());
+												}
+					
+												if (FlxG.keys.justPressed.ESCAPE)
+													{
+														PlayState.SONG = Song.loadFromJson("torment", "torment"); //bitchfuck123
+														FlxG.switchState(new PlayState());
+													}
+						
+
 		// FlxG.watch.addQuick('VOL', vocals.amplitudeLeft);
 		// FlxG.watch.addQuick('VOLRight', vocals.amplitudeRight);
 

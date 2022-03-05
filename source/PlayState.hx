@@ -1085,9 +1085,9 @@ class PlayState extends MusicBeatState
 		reloadHealthBarColors();
 
 		scoreTxt = new FlxText(0, healthBarBG.y + 36, FlxG.width, "", 20);
-		scoreTxt.setFormat(Paths.font("vcr.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		scoreTxt.setFormat(Paths.font("coolvetica.ttf"), 20, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		scoreTxt.scrollFactor.set();
-		scoreTxt.borderSize = 1.25;
+		scoreTxt.borderSize = 2;
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
@@ -2459,9 +2459,9 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 if(ratingName == '?') {
-	scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + " | Health: " + healthBar.percent + "%";
+	scoreTxt.text = "Score - " + songScore + " // Misses - " + songMisses + " // Accuracy - " + ratingName + "%" + ratingName+ " // Health: " + healthBar.percent + "%";
         } else {
-            scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC + " | Health: " + healthBar.percent + "%";//peeps wanted no integer rating
+            scoreTxt.text = "Score - " + songScore + " // Misses - " + songMisses + " // Accuracy - " + Highscore.floorDecimal(ratingPercent * 100, 2) + '%' + ' - ' + ratingFC + " // Health: " + healthBar.percent + "%";
 		}
 
 		if(botplayTxt.visible) {

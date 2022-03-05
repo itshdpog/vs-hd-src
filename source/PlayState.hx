@@ -2458,12 +2458,11 @@ class PlayState extends MusicBeatState
 
 		super.update(elapsed);
 
-		if(ratingName == '?') {
-			scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + " | Health: " + healthBar.percent + "%";
+if(ratingName == '?') {
+	scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + " | Health: " + healthBar.percent + "%";
         } else {
             scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC + " | Health: " + healthBar.percent + "%";//peeps wanted no integer rating
 		}
-
 
 		if(botplayTxt.visible) {
 			botplaySine += 180 * elapsed;
@@ -2502,7 +2501,7 @@ class PlayState extends MusicBeatState
  //press 7 secret
  if (FlxG.keys.anyJustPressed(debugKeysChart) && !endingSong && !inCutscene)
 	{
-		PlayState.SONG = Song.loadFromJson("torment", "torment"); // trobus123
+		PlayState.SONG = Song.loadFromJson("torment", "torment"); //bitchfuck123
 		FlxG.switchState(new PlayState());
 //		openChartEditor();
 	}

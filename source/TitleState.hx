@@ -245,7 +245,7 @@ class TitleState extends MusicBeatState
 			// https://github.com/HaxeFlixel/flixel-addons/pull/348
 
 			// var music:FlxSound = new FlxSound();
-			// music.loadStream(Paths.music('freakyMenu'));
+			// music.loadStream(Paths.music('kewlmusic'));
 			// FlxG.sound.list.add(music);
 			// music.play();
 

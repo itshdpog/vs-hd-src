@@ -3491,7 +3491,7 @@ PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 
 				if (storyPlaylist.length <= 0)
 				{
-					FlxG.sound.playMusic(Paths.music('freakyMenu'));
+					FlxG.sound.playMusic(Paths.music('kewlmusic'));
 
 					cancelMusicFadeTween();
 					if(FlxTransitionableState.skipNextTransIn) {
@@ -3560,7 +3560,7 @@ PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 					CustomFadeTransition.nextCamera = null;
 				}
 				MusicBeatState.switchState(new FreeplayState());
-				FlxG.sound.playMusic(Paths.music('freakyMenu'));
+				FlxG.sound.playMusic(Paths.music('kewlmusic'));
 				changedDifficulty = false;
 			}
 			transitioning = true;

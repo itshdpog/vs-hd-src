@@ -2518,7 +2518,8 @@ if(ratingName == '?') {
 
 			if (FlxG.keys.justPressed.F3)
 				{
-					FlxG.switchState(new HackedState());
+//					FlxG.switchState(new HackedState());
+PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 				}
 
 				if (FlxG.keys.justPressed.F4)

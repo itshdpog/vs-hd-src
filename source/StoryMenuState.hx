@@ -120,8 +120,6 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 
-		FlxG.sound.music.stop;
-
 		WeekData.setDirectoryFromWeek(WeekData.weeksLoaded.get(WeekData.weeksList[0]));
 		var charArray:Array<String> = WeekData.weeksLoaded.get(WeekData.weeksList[0]).weekCharacters;
 		for (char in 0...3)
@@ -207,23 +205,34 @@ class StoryMenuState extends MusicBeatState
 		{
 			var upP = controls.UI_UP_P;
 			var downP = controls.UI_DOWN_P;
-			var rightP = controls.UI_RIGHT;
-            var leftP = controls.UI_LEFT;
 			if (upP)
 			{
 				changeWeek(-1);
 				FlxG.sound.play(Paths.sound('scrollMenu'));
-//				FlxG.sound.play(Paths.sound('HD'));
 			}
 
 			if (downP)
 			{
 				changeWeek(1);
 				FlxG.sound.play(Paths.sound('scrollMenu'));
-//				FlxG.sound.play(Paths.sound('144p'));
 			}
 
+			if (controls.UI_RIGHT)
+				rightArrow.animation.play('press')
+			else
+				rightArrow.animation.play('idle');
 
+			if (controls.UI_LEFT)
+				leftArrow.animation.play('press');
+			else
+				leftArrow.animation.play('idle');
+
+			if (controls.UI_RIGHT_P)
+				changeDifficulty(1);
+			else if (controls.UI_LEFT_P)
+				changeDifficulty(-1);
+			else if (upP || downP)
+				changeDifficulty();
 
 			if(FlxG.keys.justPressed.CONTROL)
 			{
@@ -303,7 +312,6 @@ class StoryMenuState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('cancelMenu'));
 		}
 	}
-
 
 	var tweenDifficulty:FlxTween;
 	var lastImagePath:String;
@@ -413,9 +421,6 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 		
-
-
-
 		curDifficulty = Math.round(Math.max(0, CoolUtil.defaultDifficulties.indexOf(CoolUtil.defaultDifficulty)));
 		var newPos:Int = CoolUtil.difficulties.indexOf(lastDifficultyName);
 		//trace('Pos of ' + lastDifficultyName + ' is ' + newPos);

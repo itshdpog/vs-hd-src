@@ -4,7 +4,7 @@ import flixel.*;
 import flixel.util.FlxTimer;
 import flash.system.System;
 
-class JumpscareState extends FlxState
+class SusState extends FlxState
 {
     var sus:FlxSprite;
 
@@ -18,7 +18,6 @@ class JumpscareState extends FlxState
 
         sus = new FlxSprite(0, 0);
         sus.loadGraphic(Paths.image("hd/jumpscare/approv", "shared"));
-        FlxG.sound.play(Paths.sound("prugatory", "shared"), 1, false);
         add(sus);
         new FlxTimer().start(10, jumpscare);
     }

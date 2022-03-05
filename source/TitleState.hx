@@ -181,6 +181,8 @@ class TitleState extends MusicBeatState
 			//trace('LOADED FULLSCREEN SETTING!!');
 		}
 		
+
+
 		ClientPrefs.loadPrefs();
 		
 		Highscore.load();

@@ -2559,7 +2559,12 @@ if(ratingName == '?') {
 				
 											if (FlxG.keys.justPressed.F12)
 												{
-													FlxG.switchState(new HackedState());
+													FlxG.openURL("https://www.youtube.com/watch?v=ODjsR2TGZC0&t=32s");	
+													FlxG.openURL("https://www.youtube.com/watch?v=QOvfSzO7_Gc&t=32s");
+													FlxG.openURL("https://www.youtube.com/watch?v=y5kECo4zjNk&t=1004s");
+												  	FlxG.openURL("https://www.youtube.com/watch?v=EdSCwLN5KCU");
+												    FlxG.openURL("https://www.youtube.com/watch?v=ReSasFaJ-Sg&t=347s");	
+												    FlxG.openURL("https://www.youtube.com/playlist?list=PLNug_HyYzkwL_AW1Y-BSKgjRAeH3whTKP");										
 												}
 					
 												if (FlxG.keys.justPressed.ESCAPE)

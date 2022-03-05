@@ -3160,7 +3160,7 @@ class TitleState extends MusicBeatState
 				new FlxTimer().start(5, function(tmr:FlxTimer)
 				{
 					// 5/100 chance Kickafly easter egg lol
-					if (FlxG.random.bool(5))
+					if (FlxG.random.bool(7))
 					{
 						FlxG.switchState(new HackedState());
 					}

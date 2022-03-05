@@ -230,6 +230,13 @@ class PlayState extends MusicBeatState
 	var wiggleShit:WiggleEffect = new WiggleEffect();
 	var bgGhouls:BGSprite;
 
+/*	var scoreTxt:FlxText;
+	var missesTxt:FlxText;
+	var accuracyTxt:FlxText;
+	var rateTxt:FlxText;
+	var songTxt:FlxText;
+	var diffTxt:FlxText;
+*/
 	public var songScore:Int = 0;
 	public var songHits:Int = 0;
 	public var songMisses:Int = 0;
@@ -351,6 +358,32 @@ class PlayState extends MusicBeatState
 		{
 			detailsText = "Freeplay";
 		}
+
+	/*
+		scoreTxt = new FlxText(healthBarBG.x + healthBarBG.width - 190, healthBarBG.y + 25, 0, "", 20);
+		scoreTxt.setFormat(Paths.font("coolvetica.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		scoreTxt.scrollFactor.set();
+
+		missesTxt = new FlxText(healthBarBG.x + healthBarBG.width - 190, healthBarBG.y + -30, 0, "", 20);
+		missesTxt.setFormat(Paths.font("coolvetica.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		missesTxt.scrollFactor.set();
+
+		accuracyTxt = new FlxText(healthBarBG.x + 200 + healthBarBG.width - 190, healthBarBG.y + -5, 0, "", 20);
+		accuracyTxt.setFormat(Paths.font("coolvetica.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		accuracyTxt.scrollFactor.set();
+
+		rateTxt = new FlxText(healthBarBG.x + -555 + healthBarBG.width - 190, healthBarBG.y + -5, 0, "", 20);
+		rateTxt.setFormat(Paths.font("coolvetica.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		rateTxt.scrollFactor.set();
+	
+		songTxt = new FlxText(timeBarBG.x + 200 + timeBarBG.width - 190, timeBarBG.y + -5, 0, "", 20);
+		songTxt.setFormat(Paths.font("coolvetica.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		songTxt.scrollFactor.set();
+
+		diffTxt = new FlxText(timeBarBG.x + -500 + timeBarBG.width - 190, timeBarBG.y + -5, 0, "", 20);
+		diffTxt.setFormat(Paths.font("coolvetica.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE,FlxColor.BLACK);
+		diffTxt.scrollFactor.set();
+	*/
 
 		// String for when the game is paused
 		detailsPausedText = "Paused - " + detailsText;
@@ -2426,10 +2459,11 @@ class PlayState extends MusicBeatState
 		super.update(elapsed);
 
 		if(ratingName == '?') {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName;
-		} else {
-			scoreTxt.text = 'Score: ' + songScore + ' | Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC;//peeps wanted no integer rating
+			scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + " | Health: " + healthBar.percent + "%";
+        } else {
+            scoreTxt.text = 'Misses: ' + songMisses + ' | Rating: ' + ratingName + ' (' + Highscore.floorDecimal(ratingPercent * 100, 2) + '%)' + ' - ' + ratingFC + " | Health: " + healthBar.percent + "%";//peeps wanted no integer rating
 		}
+
 
 		if(botplayTxt.visible) {
 			botplaySine += 180 * elapsed;

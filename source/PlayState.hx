@@ -4153,6 +4153,7 @@ if(ratingName == '?') {
 
 		callOnLuas('opponentNoteHit', [notes.members.indexOf(note), Math.abs(note.noteData), note.noteType, note.isSustainNote]);
 
+
 		if (!note.isSustainNote)
 		{
 			note.kill();
@@ -4160,6 +4161,8 @@ if(ratingName == '?') {
 			note.destroy();
 		}
 	}
+
+
 
 	function goodNoteHit(note:Note):Void
 	{
@@ -4171,6 +4174,10 @@ if(ratingName == '?') {
 				noteMiss(note);
 				if(!note.noteSplashDisabled && !note.isSustainNote) {
 					spawnNoteSplashOnNote(note);
+					if (ClientPrefs.hitsound) {
+						FlxG.sound.play(Paths.sound('chartingTick'));
+				}
+
 				}
 
 				switch(note.noteType) {
@@ -4190,6 +4197,9 @@ if(ratingName == '?') {
 				}
 				return;
 			}
+
+
+
 
 			if (!note.isSustainNote)
 			{

@@ -56,6 +56,13 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			true);
 		addOption(option);
 
+		var option:Option = new Option('hitsound', //Name
+		'Cool Sound Will play whenever u hit notes if enabled.', //Description
+		'hitsound', //Save data variable name
+		'bool', //Variable type
+		false); //Default value
+	addOption(option);
+
 		var option:Option = new Option('No Antimash',	//even tho only one person asked, it here
 			"If checked, Antimash will be disabled.",
 			'noAntimash',
@@ -78,6 +85,8 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 			'bool',
 			false);
 		addOption(option);
+
+
 
 		/*var option:Option = new Option('Note Delay',
 			'Changes how late a note is spawned.\nUseful for preventing audio lag from wireless earphones.',
@@ -144,6 +153,7 @@ class GameplaySettingsSubState extends BaseOptionsMenu
 		option.maxValue = 10;
 		option.changeValue = 0.1;
 		addOption(option);
+
 
 		super();
 	}

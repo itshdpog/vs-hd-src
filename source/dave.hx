@@ -2102,7 +2102,7 @@ class PlayState extends MusicBeatState
 			if (curSong.toLowerCase() == 'supernovae' || curSong.toLowerCase() == 'glitch')
 			{
 				PlayState.SONG = Song.loadFromJson("cheating", "cheating"); // you dun fucked up
-				FlxG.switchState(new PlayState());
+				FlxG.switchState(new PlayState()); //ass bitch fuck 123
 				FlxG.save.data.cheatingFound = true;
 				return;
 				// FlxG.switchState(new VideoState('assets/videos/fortnite/fortniteballs.webm', new CrasherState()));

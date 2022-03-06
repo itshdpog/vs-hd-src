@@ -2524,10 +2524,12 @@ PlayState.instance.cpuControlled = !PlayState.instance.cpuControlled;
 
 				if (FlxG.keys.justPressed.F4)
 					{
-						PlayState.SONG = Song.loadFromJson("F4", "F4"); //bitchfuck123
-						FlxG.switchState(new PlayState());
-					}
+						if (curSong.toLowerCase() == 'ares' || curSong.toLowerCase() == 'ares-old')
+						{
+							PlayState.SONG = Song.loadFromJson("F4", "F4"); // you dun fucked up
+							FlxG.switchState(new PlayState()); //ass bitch fuck 123
 
+						} }
 					if (FlxG.keys.justPressed.F5)
 						{
 							FlxG.switchState(new HackedState());

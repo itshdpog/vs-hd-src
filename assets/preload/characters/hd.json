@@ -3,150 +3,64 @@
 		{
 			"offsets": [
 				0,
-				0
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "idle-loop",
-			"indices": [
-				10,
-				11,
-				12,
-				12
-			],
-			"name": "Dad idle dance"
-		},
-		{
-			"offsets": [
-				-9,
-				10
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singLEFT-loop",
-			"indices": [
-				12,
-				13,
-				14,
-				15
-			],
-			"name": "Dad Sing Note LEFT"
-		},
-		{
-			"offsets": [
-				-6,
-				50
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singUP-loop",
-			"indices": [
-				56,
-				57,
-				58,
-				59
-			],
-			"name": "Dad Sing Note UP"
-		},
-		{
-			"offsets": [
-				-18,
-				-1
+				-62
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singDOWN",
 			"indices": [],
-			"name": "Sing Note DOWN"
+			"name": "Down"
 		},
 		{
 			"offsets": [
 				0,
-				54
+				131
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singUP",
 			"indices": [],
-			"name": "theboy"
+			"name": "Up"
 		},
 		{
 			"offsets": [
-				-13,
-				27
+				0,
+				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Sing Note RIGHT"
+			"name": "Right"
 		},
 		{
 			"offsets": [
 				0,
-				27
-			],
-			"loop": true,
-			"fps": 24,
-			"anim": "singRIGHT-loop",
-			"indices": [
-				15,
-				16,
-				17,
-				18
-			],
-			"name": "Dad Sing Note RIGHT"
-		},
-		{
-			"offsets": [
-				0,
-				54
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "hey",
-			"indices": [],
-			"name": "theboy"
-		},
-		{
-			"offsets": [
-				0,
-				7
+				0
 			],
 			"loop": false,
 			"fps": 24,
 			"anim": "singLEFT",
 			"indices": [],
-			"name": "Sing Note LEFT"
+			"name": "Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "",
-			"fps": 12,
-			"name": "",
-			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				54
-			],
 			"indices": [],
-			"fps": 12,
+			"fps": 25,
 			"anim": "idle",
 			"loop": false,
-			"name": "idle dance"
+			"name": "Idle"
 		}
 	],
 	"no_antialiasing": false,
-	"image": "characters/HD",
+	"image": "characters/HDSpriteShit",
 	"position": [
-		40,
-		180
+		160,
+		270
 	],
 	"healthicon": "hd",
 	"flip_x": false,
@@ -156,9 +70,9 @@
 		26
 	],
 	"camera_position": [
-		90,
-		140
+		10,
+		0
 	],
 	"sing_duration": 6.1,
-	"scale": 0.6
+	"scale": 1
 }

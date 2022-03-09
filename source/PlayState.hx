@@ -480,6 +480,19 @@ class PlayState extends MusicBeatState
 				add(smphdfront);
 
 
+				case 'kickacraft': //smphds stage
+				var night:BGSprite = new BGSprite('night', -170, -70, 0.9, 0.9);
+				add(night);
+
+				var oldfront:BGSprite = new BGSprite('oldfront', -200, 0, 0.9, 0.9);
+				oldfront.setGraphicSize(Std.int(oldfront.width * 1.1));
+				oldfront.updateHitbox();
+				add(oldfront);
+
+				var s4front:BGSprite = new BGSprite('kickacraft4', -200, 0, 0.9, 0.9);
+				s4front.setGraphicSize(Std.int(s4front.width * 1.1));
+				s4front.updateHitbox();
+				add(s4front);
 
 				case 'smphdday': //smphddaystage
 				var backday:BGSprite = new BGSprite('day', -170, -70, 0.9, 0.9);

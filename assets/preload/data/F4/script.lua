@@ -1,30 +1,3 @@
-function onEndSong()
-	if not allowEnd and isStoryMode then
-		startVideo('last');
-		allowEnd = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
-
-local allowCountdown = false
-function onStartCountdown()
-	if not allowCountdown and isStoryMode and not seenCutscene then --Block the first countdown
-		startVideo('third');
-		allowCountdown = true;
-		return Function_Stop;
-	end
-	return Function_Continue;
-end
-
---healthdrain code
-function opponentNoteHit()
-    health = getProperty('health')
-    if getProperty('health') > 0.05 then
-        setProperty('health', health- 0.0135);
-    end
-end
---end of healthdrain code
 
 	--easy script configs
 	IntroTextSize = 25	--Size of the text for the Now Playing thing.
@@ -63,7 +36,7 @@ end
 		addLuaText('JukeBoxSubText')
 	
 		--text for the artist name
-		makeLuaText('JukeBoxSubText2', 'by SixteenJ', 300, -305-IntroTagWidth, 90)
+		makeLuaText('JukeBoxSubText2', 'by RhythmyX', 300, -305-IntroTagWidth, 90)
 		setTextAlignment('JukeBoxSubText2', 'left')
 		setObjectCamera('JukeBoxSubText2', 'other')
 		setTextSize('JukeBoxSubText2', IntroSubText2Size)
